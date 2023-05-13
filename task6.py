@@ -14,12 +14,14 @@
 # У результаті виконання завдань усіма студентами має бути один програмний код,
 # у якому у коментарях до частин програмного коду вказати прізвища студентів, які їх писали.
 
+file_path = r'docs/task6.txt'
+
 def task6():
     # KarinaChernobai start
 
     try:
         # створюємо файл
-        with open('docs/task6.txt', 'w', encoding='utf-8') as f:
+        with open(file_path, 'w', encoding='utf-8') as f:
             f.write('Чорнобай\n')
             # записуємо питання
             f.write('Python — мова, що інтерпретується чи компілюється?')

@@ -6,6 +6,6 @@ from task9 import task9
 
 # task3()
 # task5()
-task6()
-# task7()
+# task6()
+task7()
 # task9()

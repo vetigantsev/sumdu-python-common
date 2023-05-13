@@ -1,0 +1,32 @@
+{
+    "Emma": {
+        "author": "Jane Austen",
+        "title": "Emma",
+        "genre": "romance"
+    },
+    "Ariel": {
+        "author": "Sylvia Plath",
+        "title": "Ariel",
+        "genre": "poetry"
+    },
+    "The Bell Jar": {
+        "author": "Sylvia Plath",
+        "title": "The Bell Jar",
+        "genre": "autobiorgaphy"
+    },
+    "Fingersmith": {
+        "author": "Sarah Waters",
+        "title": "Fingersmith",
+        "genre": "romance"
+    },
+    "Jane Eyre": {
+        "author": "Charlotte Bronte",
+        "title": "Jane Eyre",
+        "genre": "romance"
+    },
+    "Frankenstein": {
+        "author": "Mary Shelley",
+        "title": "Frankenstein",
+        "genre": "horror"
+    }
+}
