@@ -32,3 +32,23 @@ def task6():
     # KarinaChernobai end
 
     return
+
+file_path = r'docs/task6.txt'
+
+def task6():
+    # Третій студент (Ветіганцев)
+    full_name = "Ветіганцев Дмитро Русланович"
+    
+    try:
+        # Відкриваємо файл на дописування
+        with open(file_path, 'a', encoding='utf-8') as f:
+            # Відповідь на питання
+            f.write(f"\n{full_name}\n")
+            f.write("Python — це мова програмування, яка інтерпретується. Вона перетворює вихідний код у виконавчий на льоту, "
+                    "без попередньої компіляції.\n")
+    except FileNotFoundError as e:
+        # Обробка помилок
+        print(f"File {e.filename} not found.")
+
+# Викликаємо функцію для додавання відповіді та нового питання
+task6()
